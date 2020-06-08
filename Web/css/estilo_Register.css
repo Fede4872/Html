@@ -1,0 +1,72 @@
+body {
+    background-image: url(../imagenes/register.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% ;
+}
+h1 {
+    color: rgb(0, 0, 126);
+    font-style: italic;
+}
+
+form h2 {
+    color: rgb(29, 0, 126);
+    font-style: italic;
+}
+form {
+    border-radius: 30px;
+    background-color: rgba(136, 243, 246, 0.739);
+    width: 50%;
+    border:1px solid black;
+    margin: 10px;
+    padding:20px;
+}
+
+form label {
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    
+}
+
+form input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    border: 1px solid black;    
+}
+
+input:focus{
+    border:2px solid rgb(0, 0, 230);
+}
+form .btn {
+    position: relative;
+    left: 25%;
+}
+form .btn {
+    margin-bottom: 0;
+    width: 40%;
+    background-color: blue;
+    color:white;
+    font-size: 20px;
+    border:none;
+    border-radius: 20px;
+
+}
+form .btn:hover {
+    background-color: rgb(116, 92, 255);
+    cursor: pointer;
+}
+form .btn :focus {
+    border: white;
+}
+form select {
+    font-size: 15px;
+}
+footer p {
+    color: rgb(0, 0, 116);
+    font-size: 20px;
+    font-style: italic;
+
+}

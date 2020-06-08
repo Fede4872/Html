@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* Fondo negro con fuente blanca*/
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% ;
+    
+}
+.imagen1 {
+    border-radius: 70px;
+}
+p {color:white}
+h1,h2,h3 {
+    padding: 10px;
+    color: red
+}
+h2 {font-size:25px;}
+h3 {font-size:20px;} 
+
+.menu {
+    width: 68%;
+    position: fixed;
+    background: rgb(46, 46, 46);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    top: 5px;
+    right: 2px;
+    border-radius: 20px;
+}
+.menu li a {
+    color: rgb(0, 0, 100);
+}
+.menu li {
+    color: blue;
+    padding: 20px 30px;
+    display: inline-block;
+    font: menu;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.menu li:hover{
+    background: rgb(255, 0, 0);
+    color: black;    
+    cursor: pointer;
+}
+
+
+.block1 p {
+    width: 60%;
+    padding: 1%;
+    border: 10px solid rgb(0,0,210);
+    background:rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.block1 {
+    position: absolute;
+    top: 43%;
+}
+.block2 p {
+    width: 60%;
+    padding: 1%;
+    border: 10px solid rgb(0,0,210);
+    background:rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.block2 {
+    position: absolute;
+    left: 10px;
+    top: 78%;
+    
+}
+.footer_cita {
+    position: absolute;
+    top: 142%;
+    color: blueviolet;
+}

@@ -1,0 +1,124 @@
+body{
+    background-image: url(../imagenes/calculator.jpg);
+}
+body h1 {
+    padding-bottom: 5%;
+    font-style: italic;
+    font-size: 250%;
+    color: blue;
+}
+.box {
+    background-color: rgb(77, 178, 218);
+    width: 40%;
+    margin: auto;
+    left: 50%;
+    border: solid 2px;
+    border-radius: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;   
+}
+.variables{
+    padding: 30px;
+    background-color: rgb(100, 190, 230);
+    border: solid 1px;
+}
+
+.buttons{
+    padding: 20px;
+}
+.suma {
+    width: 48%;
+    padding: 8%;
+    margin: 2px;
+    color: thistle;
+    background-color: rgb(17, 0, 255);
+    border: solid black 1px;
+    font-size: 150%;
+    cursor: pointer;
+    border-bottom: solid 3px black;
+    border-right: solid 3px black;
+}
+.suma:hover{
+    background-color: rgb(125, 255, 249);
+    color: black;
+}
+.resta {
+    width: 48%;
+    margin: 2px;
+    padding: 8%;
+    color: thistle;
+    background-color: rgb(17, 0, 255);
+    border: solid black 1px;
+    font-size: 150%;
+    cursor: pointer;
+    border-bottom: solid 3px black;
+    border-right: solid 3px black;
+}
+.resta:hover{
+    background-color: rgb(125, 255, 249);
+    color: black;
+}
+.mult {
+    height: 20%;    
+    width: 48%;
+    margin: 2px;
+    color: thistle;
+    padding: 8%;
+    background-color: rgb(17, 0, 255);
+    border: solid black 1px;
+    font-size: 150%;
+    cursor: pointer;
+    border-bottom: solid 3px black;
+    border-right: solid 3px black;}
+.mult:hover{
+    background-color: rgb(125, 255, 249);
+    color: black;
+}
+.div {
+    width: 48%;
+    height: 20%;
+    margin: 2px;
+    color: thistle;
+    padding: 8%;
+    background-color: rgb(17, 0, 255);
+    border: solid black 1px;
+    font-size: 150%;
+    cursor: pointer;
+    border-bottom: solid 3px black;
+    border-right: solid 3px black;
+}
+.div:hover{
+    background-color: rgb(125, 255, 249);
+    color: black;
+}
+.clr {
+    color: thistle;
+    width: 95%;
+    margin: 2%;
+    padding: 8%;
+    background-color: rgb(17, 0, 255);
+    border: solid black 1px;    
+    font-size: 200%;
+    cursor: pointer;
+    border-bottom: solid 3px black;
+    border-right: solid 3px black;
+}
+.clr:hover{
+    background-color: rgb(125, 255, 249);
+    color: black;
+}
+
+.res{
+    padding: 30px;
+    background-color: rgb(77, 79, 255);
+    border: solid 1px;
+}
+.rst{
+    font-size: 150%;
+    font-style: oblique;
+}
+.resultado{
+    font-size: 150%;
+    font-style: oblique;
+}

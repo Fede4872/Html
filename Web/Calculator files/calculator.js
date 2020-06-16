@@ -27,34 +27,24 @@ function get_div(){
     return out1;
 }
 
-
-
 function show_add(){
-    let result = document.getElementById("resultado");
-    let fc = get_suma();
-    let content = document.createTextNode(" " + fc);
-    result.appendChild(content);
+    let r = get_suma();
+    document.getElementById("resultado").innerHTML= r;
 }
 
 function show_rst(){
-    let result = document.getElementById("resultado");
-    let fc = get_resta();
-    let content = document.createTextNode(" " + fc);
-    result.appendChild(content);
+    let r = get_resta();
+    document.getElementById("resultado").innerHTML= r;
 }
 
 function show_mlt(){
-    let result = document.getElementById("resultado");
-    let fc = get_mult();
-    let content = document.createTextNode(" " + fc);
-    result.appendChild(content);
+    let r = get_mult();
+    document.getElementById("resultado").innerHTML= r;
 }
 
 function show_div(){
-    let result = document.getElementById("resultado");
-    let fc = get_div();
-    let content = document.createTextNode(" " + fc);
-    result.appendChild(content);
+    let r = get_div();
+    document.getElementById("resultado").innerHTML= r;
 }
 function clear(){
     document.getElementById("resultado").innerHTML = "";

@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title> Calculadora </title>
+        <link rel="icon" href="../imagenes/calculator.ico">
+        <link rel="stylesheet" href="estilo_calculator.css">
+    </head>
+    <body>
+        <div class="box">
+            <h1>Calculadora</h1>
+            <br>
+            <div class= "variables">
+                <label calss="x" for="x">X= </label>
+                <input type="number" id="x">
+                <label class="y" for="y">Y= </label>
+                <input type="number" id="y">
+            </div>
+            <div class="buttons">
+                <button class = "suma" type="button" id="suma">Sumar</button>
+                <button class="resta" id="resta">Restar</button>
+                <br>
+                <button class = "mult" id="mult">Multiplicar</button>
+                <button class= "div" id="div">Dividir</button>
+
+                <button class= "clr" id="clr" >Limpiar</button>
+                
+            </div>
+            <div class = "res">
+                <label class="rst" for="resultado">Resultado: </label>
+                <label class="resultado" id="resultado"></label>
+            </div>
+    </div>
+        <script src="calculator.js" ></script>
+    </body>
+</html>
+

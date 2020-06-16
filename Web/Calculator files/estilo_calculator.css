@@ -115,10 +115,13 @@ body h1 {
     border: solid 1px;
 }
 .rst{
+    color: white;
     font-size: 150%;
     font-style: oblique;
 }
 .resultado{
+    color:white;
     font-size: 150%;
     font-style: oblique;
+    font-weight: bolder;
 }
